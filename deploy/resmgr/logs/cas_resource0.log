@@ -1,0 +1,8 @@
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Loading Resource Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/resmgr/etc/resource.properties]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Resource Manager started by ohjihyun
+May 19, 2015 9:58:53 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Loading Resource Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/resmgr/etc/resource.properties]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Resource Manager started by ohjihyun

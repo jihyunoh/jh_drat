@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+   <keyval type="vector">
+      <key>InputFiles</key>
+      <val>%2FUsers%2Fohjihyun%2Fdrat%2Fdeploy%2Fdata%2Farchive%2Frat%2Fhtml%2Frat_html_1432097956902.log</val>
+   </keyval>
+   <keyval type="vector">
+      <key>ProductType</key>
+      <val>RatAggregateLog</val>
+   </keyval>
+   <keyval type="vector">
+      <key>JobId</key>
+      <val>fa9d9a86-feac-11e4-b60c-e95fa2d01ee6</val>
+   </keyval>
+   <keyval type="vector">
+      <key>ProductionDateTime</key>
+      <val>2015-05-20T04%3A59%3A22.139Z</val>
+   </keyval>
+</cas:metadata>

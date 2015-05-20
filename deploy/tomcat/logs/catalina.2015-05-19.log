@@ -1,0 +1,545 @@
+May 19, 2015 9:58:54 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/ohjihyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 19, 2015 9:58:54 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+May 19, 2015 9:58:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 389 ms
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /Users/ohjihyun/drat/deploy/tomcat/server/webapps/host-manager does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3855)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4024)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/host-manager] startup failed due to previous errors
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/host-manager] has not been started
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /Users/ohjihyun/drat/deploy/tomcat/server/webapps/manager does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3855)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4024)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/manager] startup failed due to previous errors
+May 19, 2015 9:58:54 PM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] has not been started
+May 19, 2015 9:58:56 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+May 19, 2015 9:58:56 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: Using JNDI solr.home: ../solr
+May 19, 2015 9:58:56 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /Users/ohjihyun/drat/deploy/bin/../solr/solr.xml
+May 19, 2015 9:58:56 PM org.apache.solr.core.CoreContainer <init>
+INFO: New CoreContainer 1359864379
+May 19, 2015 9:58:56 PM org.apache.solr.core.CoreContainer load
+INFO: Loading CoreContainer using Solr Home: '../solr/'
+May 19, 2015 9:58:56 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '../solr/'
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+May 19, 2015 9:58:57 PM org.apache.solr.client.solrj.impl.HttpClientUtil createClient
+INFO: Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+May 19, 2015 9:58:57 PM org.apache.solr.core.CoreContainer load
+INFO: Registering Log Listener
+May 19, 2015 9:58:57 PM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'drat' using instanceDir: ../solr/drat
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '../solr/drat/'
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrConfig initLibs
+INFO: Adding specified lib dirs to ClassLoader
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrConfig <init>
+WARNING: <indexDefaults> and <mainIndex> configuration sections are deprecated and will fail for luceneMatchVersion=LUCENE_40 and later. Please use <indexConfig> instead.
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_34
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+May 19, 2015 9:58:57 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+May 19, 2015 9:58:57 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=example
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: SynonymFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: SynonymFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: EnglishPossessiveFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: KeywordMarkerFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: PorterStemFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: EnglishPossessiveFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: KeywordMarkerFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: PorterStemFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: SynonymFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WordDelimiterFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: KeywordMarkerFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: PorterStemFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WordDelimiterFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: KeywordMarkerFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: PorterStemFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: SynonymFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WordDelimiterFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: KeywordMarkerFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: EnglishMinimalStemFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: RemoveDuplicatesTokenFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: SynonymFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StopFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: ReversedWildcardFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: KeywordTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: TrimFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: PatternReplaceFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: StandardTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: DoubleMetaphoneFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: WhitespaceTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: DelimitedPayloadTokenFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: KeywordTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: LowerCaseFilterFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.FieldTypePluginLoader parseConfiguredVersion
+WARNING: PathHierarchyTokenizerFactory is using deprecated LUCENE_34 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+May 19, 2015 9:58:57 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is text
+May 19, 2015 9:58:57 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is OR
+May 19, 2015 9:58:57 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.StandardDirectoryFactory
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrCore <init>
+INFO: [drat] Opening new SolrCore at ../solr/drat/, dataDir=/Users/ohjihyun/drat/deploy/solr/drat/data/
+May 19, 2015 9:58:57 PM org.apache.solr.core.JmxMonitoredMap <init>
+INFO: JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@57de63c1
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrCore initListeners
+INFO: [drat] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrCore initListeners
+INFO: [drat] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.StandardDirectoryFactory
+May 19, 2015 9:58:57 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/ohjihyun/drat/deploy/solr/drat/data forceNew: false
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/ohjihyun/drat/deploy/solr/drat/data/index/
+May 19, 2015 9:58:57 PM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/ohjihyun/drat/deploy/solr/drat/data/index forceNew: false
+May 19, 2015 9:58:57 PM org.apache.solr.core.SolrCore initWriters
+INFO: created xslt: solr.XSLTResponseWriter
+May 19, 2015 9:58:57 PM org.apache.solr.response.XSLTResponseWriter init
+INFO: xsltCacheLifetimeSeconds=5
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created search: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /browse: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.XmlUpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/javabin: solr.BinaryUpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.CSVRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.JsonUpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.XsltUpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/xslt: solr.XsltUpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /spell: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created tvrh: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /terms: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /elevate: solr.SearchHandler
+May 19, 2015 9:58:57 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+May 19, 2015 9:58:57 PM org.apache.solr.handler.XmlUpdateRequestHandler init
+WARNING: Using deprecated class: XmlUpdateRequestHandler -- replace with UpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.handler.loader.XMLLoader init
+INFO: xsltCacheLifetimeSeconds=60
+May 19, 2015 9:58:57 PM org.apache.solr.handler.BinaryUpdateRequestHandler init
+WARNING: Using deprecated class: BinaryUpdateRequestHandler -- replace with UpdateRequestHandler
+May 19, 2015 9:58:57 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@31bf1054 main
+May 19, 2015 9:58:57 PM org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: disabled
+May 19, 2015 9:58:57 PM org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: disabled
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+May 19, 2015 9:58:57 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+May 19, 2015 9:58:58 PM org.apache.solr.handler.component.QueryElevationComponent inform
+INFO: Loading QueryElevation from: /Users/ohjihyun/drat/deploy/bin/../solr/drat/conf/elevate.xml
+May 19, 2015 9:58:58 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@31bf1054 main{StandardDirectoryReader(segments_1:1)}
+May 19, 2015 9:58:58 PM org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: drat
+May 19, 2015 9:58:58 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/Users/ohjihyun/drat/deploy/bin
+May 19, 2015 9:58:58 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+May 19, 2015 9:58:58 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=44 
+May 19, 2015 9:58:58 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+May 19, 2015 9:58:58 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+INFO: Loading spell index for spellchecker: default
+May 19, 2015 9:58:58 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+May 19, 2015 9:58:58 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [drat] Registered new searcher Searcher@31bf1054 main{StandardDirectoryReader(segments_1:1)}
+May 19, 2015 9:58:58 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+May 19, 2015 9:58:58 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/8  config=null
+May 19, 2015 9:58:58 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+May 19, 2015 9:58:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3674 ms
+May 19, 2015 9:59:11 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/Users/ohjihyun/drat/deploy/solr/drat/data/index,segFN=segments_1,generation=1,filenames=[segments_1]
+May 19, 2015 9:59:11 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1[segments_1]
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f25c90de-feac-11e4-aba6-c73c97da2a25]} 0 77
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f255da1d-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f24f988c-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f248e1cb-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f242ee5a-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f23c1089-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f235cef8-feac-11e4-aba6-c73c97da2a25]} 0 3
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f22f1837-feac-11e4-aba6-c73c97da2a25]} 0 3
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f227ec46-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f2213585-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f21acce4-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f213a0f3-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f20c7502-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f204faf1-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f1fce4a0-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:11 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f1f5437f-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f1ed7b4e-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f1e5b31d-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f1dc3d3c-feac-11e4-aba6-c73c97da2a25]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f1d0f29b-feac-11e4-aba6-c73c97da2a25]} 0 3
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[f1bd438a-feac-11e4-aba6-c73c97da2a25]} 0 3
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c1149dec-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c10d71fb-fced-11e4-96b2-b56702a995d7]} 0 3
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c107f3ba-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c1022759-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0fca918-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0f703c7-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0f15e76-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0ebb925-fced-11e4-96b2-b56702a995d7]} 0 17
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0e57794-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0df8423-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0d8f472-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0d2b2e1-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0cc7150-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0c62fbf-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0bfc71e-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0b9858d-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0b343fc-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0ac180b-fced-11e4-96b2-b56702a995d7]} 0 3
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={wt=javabin&version=2.2} {add=[c0a5614a-fced-11e4-96b2-b56702a995d7]} 0 2
+May 19, 2015 9:59:12 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+May 19, 2015 9:59:12 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/Users/ohjihyun/drat/deploy/solr/drat/data/index,segFN=segments_1,generation=1,filenames=[segments_1]
+	commit{dir=/Users/ohjihyun/drat/deploy/solr/drat/data/index,segFN=segments_2,generation=2,filenames=[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+May 19, 2015 9:59:12 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 2[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+May 19, 2015 9:59:12 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1477bd1 main
+May 19, 2015 9:59:12 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+May 19, 2015 9:59:12 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@1477bd1 main{StandardDirectoryReader(segments_2:3:nrt _0(4.2.1):C40)}
+May 19, 2015 9:59:12 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+May 19, 2015 9:59:12 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [drat] Registered new searcher Searcher@1477bd1 main{StandardDirectoryReader(segments_2:3:nrt _0(4.2.1):C40)}
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={waitSearcher=true&commit=true&wt=javabin&waitFlush=true&version=2.2} {commit=} 0 61
+May 19, 2015 9:59:12 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+May 19, 2015 9:59:12 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/Users/ohjihyun/drat/deploy/solr/drat/data/index,segFN=segments_2,generation=2,filenames=[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+	commit{dir=/Users/ohjihyun/drat/deploy/solr/drat/data/index,segFN=segments_3,generation=3,filenames=[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip, segments_3]
+May 19, 2015 9:59:12 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 3[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip, segments_3]
+May 19, 2015 9:59:12 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1a6899fc main
+May 19, 2015 9:59:12 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+May 19, 2015 9:59:12 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@1a6899fc main{StandardDirectoryReader(segments_2:3:nrt _0(4.2.1):C40)}
+May 19, 2015 9:59:12 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+May 19, 2015 9:59:12 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [drat] Registered new searcher Searcher@1a6899fc main{StandardDirectoryReader(segments_2:3:nrt _0(4.2.1):C40)}
+May 19, 2015 9:59:12 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [drat] webapp=/solr path=/update params={optimize=true&waitSearcher=true&maxSegments=1&wt=javabin&waitFlush=true&version=2.2} {optimize=} 0 5
+May 19, 2015 9:59:16 PM org.apache.solr.request.UnInvertedField <init>
+INFO: UnInverted multi-valued field {field=mimetype,memSize=4802,tindexSize=51,time=3,phase1=3,nTerms=12,bigTerms=3,termInstances=14,uses=0}
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-java-source&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=22 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-c&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:javascript&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=0 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:xml&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:html&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=2 status=0 QTime=6 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:html&facet.field=mimetype&wt=json&rows=100&version=2.2} hits=2 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:css&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-json&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-sh&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-fortran&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:csvtab-separated-values&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-tex&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-asm&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-diff&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=0 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-python&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 
+May 19, 2015 9:59:16 PM org.apache.solr.core.SolrCore execute
+INFO: [drat] webapp=/solr path=/select/ params={facet=on&fl=filelocation,filename&indent=on&start=0&q=mimetype:x-matlab&facet.field=mimetype&wt=json&rows=10&version=2.2} hits=0 status=0 QTime=1 

@@ -1,0 +1,92 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2015-05-19T21:59:17-07:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 1
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+1 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+  /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input/index.html
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+ !????? /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input/index.html
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 
+=======================================================================
+==/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input/index.html
+=======================================================================
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tapio_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+
+<title>Tapio Schneider -> RegEM</title>
+
+<!-- InstanceEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../scripts/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="../scripts/tapio.js"></script>
+    <![if !IE]><style type="text/css">
+
+        body    {
+
+            overflow-y: scroll;
+
+            }
+
+    </style><![endif]>
+<!-- InstanceBeginEditable name="head" -->
+
+<!-- InstanceEndEditable -->
+</head>
+
+
+<!-- InstanceBeginEditable name="Body Class" --><body class=""><!-- InstanceEndEditable -->
+
+<div id="container">
+  <div id="header">
+    <h1><a href="../index.html"><span class="name_first">TAPIO</span> <span class="name_second">SCHNEIDER</span></a></h1>
+	<h2>Climate dynamics of Earth and other planets</h2>
+  </div><!-- end #header -->
+    
+  <div id="mainContent">
+	<ul id="nav">
+		<li style="width:80px;" class="home"><a href="../index.html">Home</a></li>
+		<li style="width:100px;" class="bio"><a href="../biography.html">Biography</a></li>
+		<li style="width:100px;" class="research dropdown"><a href="../research.html">Research</a>
+			<ul style="width:110px;">
+				<li><a href="../research.html#earth">Earth</a></li>
+				<li><a href="../research.html#otherPlanets">Other Planets</a></li>
+			</ul>
+		</li>
+		<li style="width:84px;" class="people dropdown"><a href="../people.html">People</a>
+			<ul style="width:130px;">
+				<li><a href="../people.html#admins">Admin assistant</a></li>
+				<li><a href="../people.html#postdocs">Postdocs</a></li>
+				<li><a href="../people.html#grads">Grad students</a></li>

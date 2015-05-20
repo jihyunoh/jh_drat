@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cas:metadata xmlns:cas="http://oodt.jpl.nasa.gov/1.0/cas">
+   <keyval type="vector">
+      <key>CollectionName</key>
+      <val>Products+extracted+by+the+OODT+Filename+Met+Extractor</val>
+   </keyval>
+   <keyval type="vector">
+      <key>DataProvider</key>
+      <val>OODT</val>
+   </keyval>
+   <keyval type="vector">
+      <key>DataVersion</key>
+      <val>1.0</val>
+   </keyval>
+   <keyval type="vector">
+      <key>FileLocation</key>
+      <val>%2FUsers%2Fohjihyun%2Fdrat%2Fdeploy%2Fdata%2Fjobs%2Frat%2F1432097956902%2Foutput</val>
+   </keyval>
+   <keyval type="vector">
+      <key>InputFiles</key>
+      <val>%2FUsers%2Fohjihyun%2FDesktop%2FGeoSoft%2FPaleo_code%2FRegEM%2Fimputation%2Findex.html</val>
+      <val>%2FUsers%2Fohjihyun%2FDesktop%2FGeoSoft%2FPaleo_code%2FRegEM%2Fimputation%2Findex.html</val>
+   </keyval>
+   <keyval type="vector">
+      <key>ProductType</key>
+      <val>RatLog</val>
+   </keyval>
+   <keyval type="vector">
+      <key>MimeType</key>
+      <val>html</val>
+   </keyval>
+   <keyval type="vector">
+      <key>RatName</key>
+      <val>rat</val>
+   </keyval>
+   <keyval type="vector">
+      <key>JobId</key>
+      <val>f77f4385-feac-11e4-b60c-e95fa2d01ee6</val>
+   </keyval>
+   <keyval type="vector">
+      <key>DateMilis</key>
+      <val>1432097956902</val>
+   </keyval>
+   <keyval type="vector">
+      <key>ProductionDateTime</key>
+      <val>2015-05-20T04%3A59%3A16.902Z</val>
+   </keyval>
+   <keyval type="vector">
+      <key>Filename</key>
+      <val>rat_html_1432097956902.log</val>
+   </keyval>
+</cas:metadata>
