@@ -1,0 +1,713 @@
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for org.apache.catalina.startup.WrapperCreateRule@587ccaee
+May 19, 2015 9:58:56 PM org.apache.catalina.startup.WrapperCreateRule begin
+FINE: new org.apache.catalina.core.StandardWrapper
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for SetNextRule[methodName=addChild, paramType=org.apache.catalina.Container]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	 )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/servlet-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=setName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(CXFServlet)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/servlet-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='CXFServlet'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=setName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=setName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet/servlet-name} Call org.apache.catalina.core.StandardWrapper.setName(CXFServlet/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	 )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet-class)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	 
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/servlet-class'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=setServletClass, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	   org.apache.cxf.jaxrs.servlet.CXFNonSpringJaxrsServlet
+	 )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet-class)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/servlet-class'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+	   org.apache.cxf.jaxrs.servlet.CXFNonSpringJaxrsServlet
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=setServletClass, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	 
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=setServletClass, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet/servlet-class} Call org.apache.catalina.core.StandardWrapper.setServletClass(org.apache.cxf.jaxrs.servlet.CXFNonSpringJaxrsServlet/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	 )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,init-param)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	 
+	 
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/init-param'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addInitParameter, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester pushParams
+FINEST: Pushing params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,param-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	  '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/init-param/param-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(jaxrs.serviceClasses)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,param-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/init-param/param-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='jaxrs.serviceClasses'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	  '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,param-value)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	  
+	  '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/init-param/param-value'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	    org.apache.oodt.pcs.services.HealthResource
+	    org.apache.oodt.pcs.services.PedigreeResource)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,param-value)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/init-param/param-value'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+	    org.apache.oodt.pcs.services.HealthResource
+	    org.apache.oodt.pcs.services.PedigreeResource
+	  '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	  
+	  '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	 )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,init-param)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/init-param'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+	  
+	  
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addInitParameter, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	 
+	 
+	 '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addInitParameter, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester popParams
+FINEST: Popping params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](0)jaxrs.serviceClasses
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](1)org.apache.oodt.pcs.services.HealthResource
+	    org.apache.oodt.pcs.services.PedigreeResource
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet/init-param} Call org.apache.catalina.core.StandardWrapper.addInitParameter(jaxrs.serviceClasses/java.lang.String,org.apache.oodt.pcs.services.HealthResource
+	    org.apache.oodt.pcs.services.PedigreeResource/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,load-on-startup)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	 
+	 
+	 
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/load-on-startup'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=setLoadOnStartupString, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(1)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,load-on-startup)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/load-on-startup'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='1'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=setLoadOnStartupString, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	 
+	 
+	 
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=setLoadOnStartupString, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet/load-on-startup} Call org.apache.catalina.core.StandardWrapper.setLoadOnStartupString(1/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+	 
+	 
+	 
+	
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for org.apache.catalina.startup.WrapperCreateRule@587ccaee
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for SetNextRule[methodName=addChild, paramType=org.apache.catalina.Container]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for SetNextRule[methodName=addChild, paramType=org.apache.catalina.Container]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.SetNextRule end
+FINE: [SetNextRule]{web-app/servlet} Call org.apache.catalina.core.StandardContext.addChild(StandardWrapper[CXFServlet])
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for org.apache.catalina.startup.WrapperCreateRule@587ccaee
+May 19, 2015 9:58:56 PM org.apache.catalina.startup.WrapperCreateRule end
+FINE: pop org.apache.catalina.core.StandardWrapper
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+   )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	
+	
+   '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for org.apache.catalina.startup.WrapperCreateRule@587ccaee
+May 19, 2015 9:58:56 PM org.apache.catalina.startup.WrapperCreateRule begin
+FINE: new org.apache.catalina.core.StandardWrapper
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for SetNextRule[methodName=addChild, paramType=org.apache.catalina.Container]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,display-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/display-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   No rules found matching 'web-app/servlet/display-name'.
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(PCS Service)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,display-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/display-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='PCS Service'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   No rules found matching 'web-app/servlet/display-name'.
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/servlet-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=setName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(PCS Service)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/servlet-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='PCS Service'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=setName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=setName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet/servlet-name} Call org.apache.catalina.core.StandardWrapper.setName(PCS Service/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet-class)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/servlet-class'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=setServletClass, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(org.apache.oodt.pcs.services.PCSService)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet-class)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/servlet-class'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='org.apache.oodt.pcs.services.PCSService'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=setServletClass, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=setServletClass, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet/servlet-class} Call org.apache.catalina.core.StandardWrapper.setServletClass(org.apache.oodt.pcs.services.PCSService/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,load-on-startup)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet/load-on-startup'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=setLoadOnStartupString, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(1)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,load-on-startup)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet/load-on-startup'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='1'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=setLoadOnStartupString, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=setLoadOnStartupString, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet/load-on-startup} Call org.apache.catalina.core.StandardWrapper.setLoadOnStartupString(1/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+        
+        
+        
+        
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for org.apache.catalina.startup.WrapperCreateRule@587ccaee
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for SetNextRule[methodName=addChild, paramType=org.apache.catalina.Container]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	
+	
+   '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for SetNextRule[methodName=addChild, paramType=org.apache.catalina.Container]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.SetNextRule end
+FINE: [SetNextRule]{web-app/servlet} Call org.apache.catalina.core.StandardContext.addChild(StandardWrapper[PCS Service])
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for org.apache.catalina.startup.WrapperCreateRule@587ccaee
+May 19, 2015 9:58:56 PM org.apache.catalina.startup.WrapperCreateRule end
+FINE: pop org.apache.catalina.core.StandardWrapper
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(	
+	)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	
+	
+   	
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addServletMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester pushParams
+FINEST: Pushing params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+		)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,servlet-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+		'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet-mapping/servlet-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(CXFServlet)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet-mapping/servlet-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='CXFServlet'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+		'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+		)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,url-pattern)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+		
+		'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/servlet-mapping/url-pattern'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(/services/*)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,url-pattern)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet-mapping/url-pattern'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='/services/*'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+		
+		'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,servlet-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/servlet-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+		
+		
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addServletMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	
+	
+   	
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addServletMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester popParams
+FINEST: Popping params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](0)/services/*
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](1)CXFServlet
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/servlet-mapping} Call org.apache.catalina.core.StandardContext.addServletMapping(/services/*/java.lang.String,CXFServlet/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,web-app)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+	
+	
+   	
+	
+'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for org.apache.catalina.startup.SetPublicIdRule@7639fabd
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text ''
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for org.apache.catalina.startup.SetPublicIdRule@7639fabd
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endDocument
+FINE: endDocument()
+May 19, 2015 9:58:56 PM org.apache.catalina.session.ManagerBase setRandomFile
+FINE: Opening /dev/urandom
+May 19, 2015 9:58:56 PM org.apache.catalina.session.ManagerBase init
+FINE: Registering Catalina:type=Manager,path=/pcs,host=localhost
+May 19, 2015 9:58:56 PM org.apache.catalina.session.StandardManager start
+FINE: Force random number initialization starting
+May 19, 2015 9:58:56 PM org.apache.catalina.session.ManagerBase getDigest
+FINE: Getting message digest component for algorithm MD5
+May 19, 2015 9:58:56 PM org.apache.catalina.session.ManagerBase getDigest
+FINE: Completed getting message digest component
+May 19, 2015 9:58:56 PM org.apache.catalina.session.ManagerBase getDigest
+FINE: getDigest() 1
+May 19, 2015 9:58:56 PM org.apache.catalina.session.StandardManager start
+FINE: Force random number initialization completed
+May 19, 2015 9:58:56 PM org.apache.catalina.session.StandardManager doLoad
+FINE: Start: Loading persisted sessions
+May 19, 2015 9:58:56 PM org.apache.catalina.session.StandardManager doLoad
+FINE: Loading persisted sessions from SESSIONS.ser
+May 19, 2015 9:58:56 PM org.apache.catalina.session.StandardManager doLoad
+FINE: Creating custom object input stream for class loader 
+May 19, 2015 9:58:56 PM org.apache.catalina.session.StandardManager doLoad
+FINE: Loading 0 persisted sessions
+May 19, 2015 9:58:56 PM org.apache.catalina.session.StandardManager doLoad
+FINE: Finish: Loading persisted sessions
+May 19, 2015 9:58:56 PM org.apache.catalina.core.StandardContext listenerStart
+FINE: Sending application start events
+May 19, 2015 9:58:56 PM org.apache.catalina.core.StandardContext filterStart
+FINE: Starting filters
+May 19, 2015 9:58:56 PM org.apache.oodt.pcs.services.config.PCSServiceConfig readContextParams
+INFO: Init Parameters: {org.apache.oodt.cas.fm.url=[FILEMGR_URL], org.apache.oodt.pcs.trace.productTypeExcludeList=TypeName1,TypeName2, org.apache.oodt.pcs.health.crawler.conf.filePath=[PCS_HOME]/aux/pcs/pcs-crawlers.xml, org.apache.oodt.pcs.health.workflow.statuses.filePath=[PCS_HOME]/aux/pcs/pcs-workflow-statuses.xml, org.apache.oodt.pcs.trace.enableNonCat=true, org.apache.oodt.cas.wm.url=[WORKFLOW_URL], org.apache.oodt.cas.rm.url=[RESMGR_URL], org.apache.oodt.pcs.ll.conf.filePath=[PCS_HOME]/aux/pcs/pcs-ll-conf.xmnl}
+May 19, 2015 9:58:56 PM org.apache.cxf.transport.servlet.CXFNonSpringServlet loadBusNoConfig
+INFO: Load the bus without application context
+May 19, 2015 9:58:56 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.apache.cxf.bus.spring.BusApplicationContext@33b2cb98: startup date [Tue May 19 21:58:56 PDT 2015]; root of context hierarchy
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.TunedDocumentLoader <clinit>
+FINE: FastInfoset not found on classpath. Disabling context load optimizations.
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusApplicationContext getConfigResources
+FINE: Creating application context with resources: [class path resource [META-INF/cxf/cxf.xml], class path resource [META-INF/cxf/cxf-extension-xml.xml], class path resource [META-INF/cxf/cxf-extension-jaxrs-binding.xml], class path resource [META-INF/cxf/cxf-extension-http.xml]]
+May 19, 2015 9:58:56 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+May 19, 2015 9:58:56 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-xml.xml]
+May 19, 2015 9:58:56 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-jaxrs-binding.xml]
+May 19, 2015 9:58:56 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-http.xml]
+May 19, 2015 9:58:56 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+FINE: Bean factory for org.apache.cxf.bus.spring.BusApplicationContext@33b2cb98: org.springframework.beans.factory.support.DefaultListableBeanFactory@222c39b9: defining beans [cxf,org.apache.cxf.bus.spring.BusApplicationListener,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.apache.cxf.resource.ResourceManager,org.apache.cxf.configuration.Configurer,org.apache.cxf.binding.BindingFactoryManager,org.apache.cxf.transport.DestinationFactoryManager,org.apache.cxf.transport.ConduitInitiatorManager,org.apache.cxf.wsdl.WSDLManager,org.apache.cxf.phase.PhaseManager,org.apache.cxf.workqueue.WorkQueueManager,org.apache.cxf.buslifecycle.BusLifeCycleManager,org.apache.cxf.endpoint.ServerRegistry,org.apache.cxf.endpoint.ServerLifeCycleManager,org.apache.cxf.endpoint.ClientLifeCycleManager,org.apache.cxf.transports.http.QueryHandlerRegistry,org.apache.cxf.endpoint.EndpointResolverRegistry,org.apache.cxf.headers.HeaderManager,org.apache.cxf.catalog.OASISCatalogManager,org.apache.cxf.service.factory.FactoryBeanListenerManager,org.apache.cxf.endpoint.ServiceContractResolverRegistry,org.apache.cxf.binding.xml.XMLBindingFactory,org.apache.cxf.transport.http.policy.HTTPClientAssertionBuilder,org.apache.cxf.transport.http.policy.HTTPServerAssertionBuilder,org.apache.cxf.transport.http.policy.NoOpPolicyInterceptorProvider,org.apache.cxf.transport.http.ClientOnlyHTTPTransportFactory]; root of factory hierarchy
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean cxf
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.bus.spring.BusApplicationListener
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.bus.spring.Jsr250BeanPostProcessor
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.bus.spring.BusExtensionPostProcessor
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.resource.ResourceManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.configuration.Configurer
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.binding.BindingFactoryManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.transport.DestinationFactoryManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.transport.ConduitInitiatorManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.wsdl.WSDLManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.phase.PhaseManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.workqueue.WorkQueueManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.buslifecycle.BusLifeCycleManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.endpoint.ServerRegistry
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.endpoint.ServerLifeCycleManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.endpoint.ClientLifeCycleManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.transports.http.QueryHandlerRegistry
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.endpoint.EndpointResolverRegistry
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.headers.HeaderManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.catalog.OASISCatalogManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.service.factory.FactoryBeanListenerManager
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.endpoint.ServiceContractResolverRegistry
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.binding.xml.XMLBindingFactory
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.transport.http.policy.HTTPClientAssertionBuilder
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.transport.http.policy.HTTPServerAssertionBuilder
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.transport.http.policy.NoOpPolicyInterceptorProvider
+May 19, 2015 9:58:56 PM org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor postProcessBeanFactory
+FINE: Checking bean org.apache.cxf.transport.http.ClientOnlyHTTPTransportFactory
+May 19, 2015 9:58:56 PM org.springframework.context.support.AbstractApplicationContext initMessageSource
+FINE: Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7402fff0]
+May 19, 2015 9:58:56 PM org.springframework.context.support.AbstractApplicationContext initApplicationEventMulticaster
+FINE: Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3e0a19cb]
+May 19, 2015 9:58:56 PM org.springframework.context.support.AbstractApplicationContext initLifecycleProcessor
+FINE: Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@46a9ca97]
+May 19, 2015 9:58:56 PM org.springframework.context.support.AbstractApplicationContext publishEvent
+FINEST: Publishing event in org.apache.cxf.bus.spring.BusApplicationContext@33b2cb98: org.springframework.context.event.ContextRefreshedEvent[source=org.apache.cxf.bus.spring.BusApplicationContext@33b2cb98: startup date [Tue May 19 21:58:56 PDT 2015]; root of context hierarchy]
+May 19, 2015 9:58:56 PM org.apache.cxf.transport.servlet.AbstractCXFServlet replaceDestinationFactory
+INFO: Replaced the http destination factory with servlet transport factory
+May 19, 2015 9:58:56 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /pcs threw load() exception
+javax.servlet.ServletException: Resource class org.apache.oodt.pcs.services.HealthResource can not be instantiated due to InvocationTargetException
+	at org.apache.cxf.jaxrs.servlet.CXFNonSpringJaxrsServlet.createSingletonInstance(CXFNonSpringJaxrsServlet.java:247)
+	at org.apache.cxf.jaxrs.servlet.CXFNonSpringJaxrsServlet.getResourceProviders(CXFNonSpringJaxrsServlet.java:211)
+	at org.apache.cxf.jaxrs.servlet.CXFNonSpringJaxrsServlet.loadBus(CXFNonSpringJaxrsServlet.java:92)
+	at org.apache.cxf.transport.servlet.AbstractCXFServlet.init(AbstractCXFServlet.java:84)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:920)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:883)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+
+May 19, 2015 9:58:56 PM org.apache.jasper.compiler.JspRuntimeContext <init>
+FINE: Parent class loader is: WebappClassLoader
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@16834d8d
+
+May 19, 2015 9:58:56 PM org.apache.jasper.compiler.JspRuntimeContext initClassPath
+FINE: Compilation classpath initialized: /Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/classes/:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/XmlSchema-1.4.7.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/antlr-2.7.6.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/aopalliance-1.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/asm-1.5.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/asm-attrs-1.5.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/aws-java-sdk-1.7.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-cli-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-crawler-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-filemgr-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-metadata-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-resource-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-workflow-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cglib-2.1_3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-beanutils-1.8.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-cli-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-codec-1.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-collections-3.2.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-dbcp-1.2.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-fileupload-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-httpclient-3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-io-1.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-lang-2.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-logging-1.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-pool-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/concurrent-1.3.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-api-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-common-schemas-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-common-utilities-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-bindings-xml-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-core-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-databinding-aegis-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-frontend-jaxrs-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-transports-http-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/dom4j-1.6.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/ehcache-1.2.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/ezmorph-1.0.6.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-activation_1.1_spec-1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-javamail_1.4_mail-1.8.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/guava-10.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/hibernate-3.2.5.ga.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/hsqldb-1.8.0.7.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/httpclient-4.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/httpcore-4.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jackson-annotations-2.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jackson-core-2.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jackson-databind-2.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jaxb-impl-2.1.13.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jettison-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/joda-time-2.5.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/json-lib-2.3-jdk15.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jsr305-1.3.9.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jsr311-api-1.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jug-2.0.0-asl.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/junit-3.8.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jython-2.2-beta1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/lucene-core-2.0.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/neethi-2.0.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/oodt-commons-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/pcs-core-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/pcs-input-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-common-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-commons-csv-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-core-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-analyzers-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-highlighter-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-queries-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-snowball-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-spellchecker-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-solrj-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-dao-2.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-hibernate3-2.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-jdbc-2.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax-1.2.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax-api-1.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax-utils-20040917.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax2-api-3.0.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/tika-core-1.6.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/woodstox-core-asl-4.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/wsdl4j-1.6.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xercesImpl-2.9.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xml-apis-1.0.b2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xmlbeans-2.4.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xmlrpc-2.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xpp3_min-1.1.4c.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xstream-1.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/work/Catalina/localhost/pcs:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/classes/:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/XmlSchema-1.4.7.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/antlr-2.7.6.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/aopalliance-1.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/asm-1.5.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/asm-attrs-1.5.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/aws-java-sdk-1.7.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-cli-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-crawler-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-filemgr-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-metadata-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-resource-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cas-workflow-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cglib-2.1_3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-beanutils-1.8.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-cli-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-codec-1.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-collections-3.2.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-dbcp-1.2.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-fileupload-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-httpclient-3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-io-1.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-lang-2.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-logging-1.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/commons-pool-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/concurrent-1.3.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-api-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-common-schemas-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-common-utilities-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-bindings-xml-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-core-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-databinding-aegis-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-frontend-jaxrs-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/cxf-rt-transports-http-2.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/dom4j-1.6.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/ehcache-1.2.3.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/ezmorph-1.0.6.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-activation_1.1_spec-1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-javamail_1.4_mail-1.8.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/guava-10.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/hibernate-3.2.5.ga.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/hsqldb-1.8.0.7.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/httpclient-4.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/httpcore-4.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jackson-annotations-2.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jackson-core-2.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jackson-databind-2.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jaxb-impl-2.1.13.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jettison-1.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/joda-time-2.5.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/json-lib-2.3-jdk15.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jsr305-1.3.9.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jsr311-api-1.1.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jug-2.0.0-asl.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/junit-3.8.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/jython-2.2-beta1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/lucene-core-2.0.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/neethi-2.0.4.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/oodt-commons-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/pcs-core-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/pcs-input-0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-common-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-commons-csv-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-core-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-analyzers-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-highlighter-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-queries-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-snowball-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-lucene-spellchecker-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/solr-solrj-1.3.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-dao-2.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-hibernate3-2.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-jdbc-2.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax-1.2.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax-api-1.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax-utils-20040917.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/stax2-api-3.0.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/tika-core-1.6.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/woodstox-core-asl-4.0.8.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/wsdl4j-1.6.2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xercesImpl-2.9.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xml-apis-1.0.b2.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xmlbeans-2.4.0.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xmlrpc-2.0.1.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xpp3_min-1.1.4c.jar:/Users/ohjihyun/drat/deploy/tomcat/webapps/pcs/WEB-INF/lib/xstream-1.3.1.jar:/Users/ohjihyun/drat/deploy/tomcat/shared/classes/:/Users/ohjihyun/drat/deploy/tomcat/common/classes/:/Users/ohjihyun/drat/deploy/tomcat/common/i18n/tomcat-i18n-en.jar:/Users/ohjihyun/drat/deploy/tomcat/common/i18n/tomcat-i18n-es.jar:/Users/ohjihyun/drat/deploy/tomcat/common/i18n/tomcat-i18n-fr.jar:/Users/ohjihyun/drat/deploy/tomcat/common/i18n/tomcat-i18n-ja.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/commons-el.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/jasper-compiler-jdt.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/jasper-compiler.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/jasper-runtime.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/jsp-api.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/naming-factory-dbcp.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/naming-factory.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/naming-resources.jar:/Users/ohjihyun/drat/deploy/tomcat/common/lib/servlet-api.jar:/Users/ohjihyun/drat/deploy/bin/:/Users/ohjihyun/drat/deploy/tomcat/bin/bootstrap.jar:/Users/ohjihyun/drat/deploy/tomcat/bin/commons-logging-api.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/System/Library/Java/Extensions/MRJToolkit.jar

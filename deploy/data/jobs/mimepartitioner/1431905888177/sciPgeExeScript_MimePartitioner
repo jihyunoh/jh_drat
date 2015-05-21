@@ -1,0 +1,8 @@
+#!sh
+export PATH=$HOME/bin/:${PATH}
+shopt -s expand_aliases
+echo "Creating working dirs"
+mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/logs
+echo "Running MIME partitioner"
+/Users/ohjihyun/drat/deploy/pge/bin/mime_partitioner/mime_rat_partitioner.py -u http://localhost:8080/solr/drat -c 100 -w http://localhost:9001 -t urn:drat:RatCodeAudit > /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/logs/mime-partitioner-1431905888177.log
+

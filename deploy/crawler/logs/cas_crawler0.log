@@ -1,0 +1,330 @@
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [.DS_Store]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [.DS_Store]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store]: product id: f1bd438a-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [center.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [center.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m]: product id: f1d0f29b-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [CHANGES]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [CHANGES]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES]: product id: f1dc3d3c-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [gcvfctn.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [gcvfctn.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m]: product id: f1e5b31d-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [gcvridge.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [gcvridge.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m]: product id: f1ed7b4e-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [index.html]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [index.html]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html]: product id: f1f5437f-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [iridge.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [iridge.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m]: product id: f1fce4a0-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [kcv_ttls.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [kcv_ttls.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m]: product id: f204faf1-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [kcvindices.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [kcvindices.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m]: product id: f20c7502-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [missingness_patterns.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [missingness_patterns.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m]: product id: f213a0f3-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [mridge.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [mridge.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m]: product id: f21acce4-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [nancov.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [nancov.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m]: product id: f2213585-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [nanmean.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [nanmean.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m]: product id: f227ec46-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [nanstd.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [nanstd.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m]: product id: f22f1837-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [nansum.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [nansum.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m]: product id: f235cef8-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [pca_truncation_criteria.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [pca_truncation_criteria.m]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m]: product id: f23c1089-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [peigs.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [peigs.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m]: product id: f242ee5a-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [pttls.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [pttls.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m]: product id: f248e1cb-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [regem.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [regem.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m]: product id: f24f988c-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [rescale.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [rescale.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m]: product id: f255da1d-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.metadata.extractors.CopyAndRewriteExtractor extrMetadata
+FINE: Extracting metadata: num rewrite fields: [0]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m]: ProductType: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [standardize.m]: ProductType: [GenericFile]: FileLocation: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [standardize.m]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m]: product id: f25c90de-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m]

@@ -1,0 +1,5665 @@
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester pushParams
+FINEST: Pushing params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(xwd)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='xwd'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(image/x-xwindowdump)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='image/x-xwindowdump'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+        
+        
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester popParams
+FINEST: Popping params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](0)xwd
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](1)image/x-xwindowdump
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/mime-mapping} Call org.apache.catalina.core.StandardContext.addMimeMapping(xwd/java.lang.String,image/x-xwindowdump/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,mime-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester pushParams
+FINEST: Pushing params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(Z)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='Z'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(application/x-compress)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='application/x-compress'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+        
+        
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester popParams
+FINEST: Popping params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](0)Z
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](1)application/x-compress
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/mime-mapping} Call org.apache.catalina.core.StandardContext.addMimeMapping(Z/java.lang.String,application/x-compress/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,mime-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester pushParams
+FINEST: Pushing params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(z)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='z'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(application/x-compress)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='application/x-compress'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+        
+        
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester popParams
+FINEST: Popping params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](0)z
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](1)application/x-compress
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/mime-mapping} Call org.apache.catalina.core.StandardContext.addMimeMapping(z/java.lang.String,application/x-compress/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,mime-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester pushParams
+FINEST: Pushing params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(zip)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,extension)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/extension'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='zip'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=0, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(application/zip)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-type)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping/mime-type'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='application/zip'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallParamRule[paramIndex=1, attributeName=null, from stack=false]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,mime-mapping)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/mime-mapping'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+        
+        
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addMimeMapping, paramCount=2, paramTypes={java.lang.String, java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester popParams
+FINEST: Popping params
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](0)zip
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINEST: [CallMethodRule](1)application/zip
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/mime-mapping} Call org.apache.catalina.core.StandardContext.addMimeMapping(zip/java.lang.String,application/zip/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+  )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,welcome-file-list)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/welcome-file-list'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   No rules found matching 'web-app/welcome-file-list'.
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,welcome-file)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/welcome-file-list/welcome-file'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(index.html)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,welcome-file)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/welcome-file-list/welcome-file'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='index.html'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/welcome-file-list/welcome-file} Call org.apache.catalina.core.StandardContext.addWelcomeFile(index.html/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,welcome-file)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/welcome-file-list/welcome-file'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(index.htm)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,welcome-file)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/welcome-file-list/welcome-file'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='index.htm'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/welcome-file-list/welcome-file} Call org.apache.catalina.core.StandardContext.addWelcomeFile(index.htm/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+        )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,welcome-file)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+        
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/welcome-file-list/welcome-file'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(index.jsp)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,welcome-file)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/welcome-file-list/welcome-file'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='index.jsp'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+        
+        
+        '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=addWelcomeFile, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/welcome-file-list/welcome-file} Call org.apache.catalina.core.StandardContext.addWelcomeFile(index.jsp/java.lang.String)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+    )
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,welcome-file-list)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/welcome-file-list'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+        
+        
+        
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   No rules found matching 'web-app/welcome-file-list'.
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    '
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+
+)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,web-app)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+
+  
+  
+  
+  
+
+    
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+
+  
+
+
+
+  
+  
+  
+
+    
+
+
+  
+  
+  
+  
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+
+'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for org.apache.catalina.startup.SetPublicIdRule@7639fabd
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text ''
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for org.apache.catalina.startup.SetPublicIdRule@7639fabd
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endDocument
+FINE: endDocument()
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester setDocumentLocator
+FINE: setDocumentLocator(com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy@3ee57250)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startDocument
+FINE: startDocument()
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,web-app)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text ''
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for org.apache.catalina.startup.SetPublicIdRule@7639fabd
+May 19, 2015 9:58:56 PM org.apache.catalina.startup.SetPublicIdRule begin
+FINE: org.apache.catalina.core.StandardContext.setPublicId(null)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(
+	)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE: startElement(,,display-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Pushing body text '
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   New match='web-app/display-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester startElement
+FINE:   Fire begin() for CallMethodRule[methodName=setDisplayName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester characters
+FINE: characters(PCS)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE: endElement(,,display-name)
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   match='web-app/display-name'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   bodyText='PCS'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire body() for CallMethodRule[methodName=setDisplayName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Popping body text '
+	'
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.Digester endElement
+FINE:   Fire end() for CallMethodRule[methodName=setDisplayName, paramCount=0, paramTypes={java.lang.String}]
+May 19, 2015 9:58:56 PM org.apache.tomcat.util.digester.CallMethodRule end
+FINE: [CallMethodRule]{web-app/display-name} Call org.apache.catalina.core.StandardContext.setDisplayName(PCS/java.lang.String)

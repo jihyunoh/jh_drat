@@ -1,0 +1,8 @@
+#!sh
+export PATH=$HOME/bin/:${PATH}
+shopt -s expand_aliases
+echo "Creating working dirs"
+mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/logs
+echo "Running RAT aggregator"
+/Users/ohjihyun/drat/deploy/pge/bin/rat_aggregator/rat_aggregator.py `python -c "print ' '.join('/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log'.split(','))"` > /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv
+

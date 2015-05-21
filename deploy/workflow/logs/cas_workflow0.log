@@ -1,0 +1,196 @@
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager loadProperties
+INFO: Loading Workflow Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/workflow/etc/workflow.properties]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngineFactory getResmgrUrl
+INFO: No Resource Manager URL provided or malformed URL: executing jobs locally. URL: [null]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager <init>
+INFO: Workflow Manager started by ohjihyun
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [MimePartitioner] has no required metadata fields
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [MimePartitioner] locally
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_MimePartitioner.xml'
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177]
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 17, 2015 4:38:08 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 17, 2015 4:38:08 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/logs, echo "Running MIME partitioner", /Users/ohjihyun/drat/deploy/pge/bin/mime_partitioner/mime_rat_partitioner.py -u http://localhost:8080/solr/drat -c 100 -w http://localhost:9001 -t urn:drat:RatCodeAudit > /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/logs/mime-partitioner-1431905888177.log]'
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [RatAggregator] has no required metadata fields
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [RatAggregator] locally
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_RatAggregator.xml'
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+WARNING: Exception executing task: [RatAggregator] locally: Message: PGETask failed : Failed to instanciate PGETaskInstance : Failed to build PgeConfig : Failed to parse value: SQL(FORMAT='$FileLocation/$Filename',SORT_BY='CAS.ProductReceivedTime'){SELECT FileLocation,Filename,CAS.ProductReceivedTime FROM RatLog}
+May 19, 2015 9:58:53 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager loadProperties
+INFO: Loading Workflow Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/workflow/etc/workflow.properties]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngineFactory getResmgrUrl
+INFO: No Resource Manager URL provided or malformed URL: executing jobs locally. URL: [null]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager <init>
+INFO: Workflow Manager started by ohjihyun
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [MimePartitioner] has no required metadata fields
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [MimePartitioner] locally
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_MimePartitioner.xml'
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548]
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 19, 2015 9:59:16 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 19, 2015 9:59:16 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/logs, echo "Running MIME partitioner", /Users/ohjihyun/drat/deploy/pge/bin/mime_partitioner/mime_rat_partitioner.py -u http://localhost:8080/solr/drat -c 100 -w http://localhost:9001 -t urn:drat:RatCodeAudit > /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/logs/mime-partitioner-1432097956548.log]'
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: All required metadata fields present for task: [RadCodeAudit]
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [RadCodeAudit] locally
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_Rat.xml'
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902]
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, alias rat="java -jar /Users/ohjihyun/drat/deploy/rat/lib/apache-rat-0.11.jar", echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/logs, echo "Staging input to /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input", FILELIST=`python -c "print ' '.join('/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html,/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html'.split(','))"`, for file in $FILELIST; do, rsync -av --backup --suffix=_`date +"%m%d%Y_%H%M"` $file /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input, done, echo "Running Apache RAT on /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input", rat /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input > /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]'
+May 19, 2015 9:59:17 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Staging input to /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input
+OUTPUT: building file list ... done
+OUTPUT: index.html
+OUTPUT: 
+OUTPUT: sent 8964 bytes  received 42 bytes  6004.00 bytes/sec
+OUTPUT: total size is 8834  speedup is 0.98
+OUTPUT: building file list ... done
+OUTPUT: 
+OUTPUT: sent 84 bytes  received 20 bytes  208.00 bytes/sec
+OUTPUT: total size is 8834  speedup is 84.94
+OUTPUT: Running Apache RAT on /Users/ohjihyun/drat/deploy/data/jobs/rat/1432
+May 19, 2015 9:59:17 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: 097956902/input
+
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance runIngestCrawler
+INFO: Executing StdProductCrawler in productPath: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler crawl
+INFO: Crawling /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.metadata.extractors.MetReaderExtractor extrMetadata
+INFO: Reading metadata from /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]: ProductType: [RatLog]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.ingest.StdIngester setFileManager
+INFO: StdIngester: connected to file manager: [http://localhost:9000]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer setFileManagerUrl
+INFO: Local Data Transfer to: [http://localhost:9000] enabled
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [rat_html_1432097956902.log]: ProductType: [RatLog]: FileLocation: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [rat_html_1432097956902.log]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner createDataStoreReferences
+INFO: Generated data store ref: [file:/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log] from origRef: [file:/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer moveFile
+INFO: LocalDataTransfer: Moving File: file:/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log to file:/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]: product id: f803677f-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+WARNING: Failed to pass preconditions for ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance verifyIngests
+WARNING: Product was not ingested [file='/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met',result='PRECONDS_FAILED',msg='Failed to pass preconditions']
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [RatAggregator] has no required metadata fields
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [RatAggregator] locally
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_RatAggregator.xml'
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 19, 2015 9:59:22 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running RAT aggregator
+
+May 19, 2015 9:59:22 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running RAT aggregator
+
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/logs, echo "Running RAT aggregator", /Users/ohjihyun/drat/deploy/pge/bin/rat_aggregator/rat_aggregator.py `python -c "print ' '.join('/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log'.split(','))"` > /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]'
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance runIngestCrawler
+INFO: Executing StdProductCrawler in productPath: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler crawl
+INFO: Crawling /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.metadata.extractors.MetReaderExtractor extrMetadata
+INFO: Reading metadata from /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]: ProductType: [RatAggregateLog]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.ingest.StdIngester setFileManager
+INFO: StdIngester: connected to file manager: [http://localhost:9000]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer setFileManagerUrl
+INFO: Local Data Transfer to: [http://localhost:9000] enabled
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [rat_aggregate_stats_1432097962139.csv]: ProductType: [RatAggregateLog]: FileLocation: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [rat_aggregate_stats_1432097962139.csv]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner createDataStoreReferences
+INFO: Generated data store ref: [file:/Users/ohjihyun/drat/deploy/data/archive/rataggregate/rat_aggregate_stats_1432097962139.csv] from origRef: [file:/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer moveFile
+INFO: LocalDataTransfer: Moving File: file:/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv to file:/Users/ohjihyun/drat/deploy/data/archive/rataggregate/rat_aggregate_stats_1432097962139.csv
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]: product id: fac4d170-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+WARNING: Failed to pass preconditions for ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance verifyIngests
+WARNING: Product was not ingested [file='/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met',result='PRECONDS_FAILED',msg='Failed to pass preconditions']

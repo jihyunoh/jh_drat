@@ -1,0 +1,32 @@
+Configured SOLR url: [http://localhost:8080/solr/drat]
+Executing RAT for MIME: [x-java-source]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-java-source&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-c]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-c&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [javascript]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:javascript&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [xml]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:xml&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [html]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:html&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Metadata is {'MimeType': 'html', 'InputFiles': [u'/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html', u'/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html']}
+Executing RAT for MIME: [css]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:css&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-json]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-json&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-sh]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-sh&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-fortran]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-fortran&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [csvtab-separated-values]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:csvtab-separated-values&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-tex]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-tex&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-asm]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-asm&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-diff]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-diff&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-python]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-python&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename
+Executing RAT for MIME: [x-matlab]: num files per job: [100]
+GET http://localhost:8080/solr/drat//select/?q=mimetype:x-matlab&version=2.2&start=0&rows=10&indent=on&facet=on&facet.field=mimetype&wt=json&fl=filelocation,filename

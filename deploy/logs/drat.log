@@ -1,0 +1,16 @@
+~/drat/deploy/crawler/bin ~/drat/src
+~/drat/src
+~/drat/deploy/filemgr/bin ~/drat/src
+~/drat/src
+~/drat/deploy/workflow/bin ~/drat/src
+~/drat/src
+~/drat/deploy/workflow/bin ~/drat/src
+~/drat/src
+~/drat/deploy/crawler/bin ~/drat/deploy
+~/drat/deploy
+~/drat/deploy/filemgr/bin ~/drat/deploy
+~/drat/deploy
+~/drat/deploy/workflow/bin ~/drat/deploy
+~/drat/deploy
+~/drat/deploy/workflow/bin ~/drat/deploy
+~/drat/deploy

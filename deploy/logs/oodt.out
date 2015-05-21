@@ -1,0 +1,996 @@
+Using CATALINA_BASE:   /Users/ohjihyun/drat/deploy/tomcat
+Using CATALINA_HOME:   /Users/ohjihyun/drat/deploy/tomcat
+Using CATALINA_TMPDIR: /Users/ohjihyun/drat/deploy/tomcat/temp
+Using JRE_HOME:       /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home
+Workflow Manager started PID file (/Users/ohjihyun/drat/deploy/workflow/run/cas.workflow.pid).
+Resource Manager started PID file (/Users/ohjihyun/drat/deploy/resmgr/run/cas.resmgr.pid).
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Loading Resource Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/resmgr/etc/resource.properties]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager loadProperties
+INFO: Loading Workflow Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/workflow/etc/workflow.properties]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager loadConfiguration
+INFO: Loading File Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/filemgr/etc/filemgr.properties]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngineFactory getResmgrUrl
+INFO: No Resource Manager URL provided or malformed URL: executing jobs locally. URL: [null]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Resource Manager started by ohjihyun
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [GenericFile]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [LocationAwareProduct]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [TraceableFile]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [RatLog]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [RatAggregateLog]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient <init>
+INFO: Loading File Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/filemgr/etc/filemgr.properties]
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer setFileManagerUrl
+INFO: Local Data Transfer to: [http://localhost:9000] enabled
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager <init>
+INFO: File Manager started by ohjihyun
+May 17, 2015 4:37:23 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager <init>
+INFO: Workflow Manager started by ohjihyun
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/.DS_Store.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/.DS_Store
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [.DS_Store] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [.DS_Store] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [.DS_Store] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [.DS_Store] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [center.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [center.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [CHANGES] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [CHANGES] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvfctn.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvfctn.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [index.html] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [index.html] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [iridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [iridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcv_ttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcv_ttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcvindices.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcvindices.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [missingness_patterns.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:37:59 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [missingness_patterns.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [mridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [mridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nancov.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nancov.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanmean.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanmean.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanstd.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanstd.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nansum.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nansum.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pca_truncation_criteria.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pca_truncation_criteria.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [peigs.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [peigs.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [regem.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [regem.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rescale.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rescale.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [standardize.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [standardize.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/drat_archive/rataggregate/rat_aggregate_stats_1431635496439.csv.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/drat_archive/rataggregate/rat_aggregate_stats_1431635496439.csv
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1431635496439.csv] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1431635496439.csv] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/drat_archive/rat/html/rat_html_1431635491303.log.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/drat_archive/rat/html/rat_html_1431635491303.log
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1431635491303.log] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:00 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1431635491303.log] for required field [DataVersion]: Attempting to continue processing metadata
+May 17, 2015 4:38:03 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:drat:RatLog] returned no results
+May 17, 2015 4:38:03 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 17, 2015 4:38:03 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:oodt:TraceableFile] returned no results
+May 17, 2015 4:38:03 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 17, 2015 4:38:03 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:drat:RatAggregateLog] returned no results
+May 17, 2015 4:38:03 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 17, 2015 4:38:04 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:oodt:LocationAwareProduct] returned no results
+May 17, 2015 4:38:04 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [MimePartitioner] has no required metadata fields
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [MimePartitioner] locally
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_MimePartitioner.xml'
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177]
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 17, 2015 4:38:08 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 17, 2015 4:38:08 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/logs, echo "Running MIME partitioner", /Users/ohjihyun/drat/deploy/pge/bin/mime_partitioner/mime_rat_partitioner.py -u http://localhost:8080/solr/drat -c 100 -w http://localhost:9001 -t urn:drat:RatCodeAudit > /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1431905888177/logs/mime-partitioner-1431905888177.log]'
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 17, 2015 4:38:08 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [RatAggregator] has no required metadata fields
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [RatAggregator] locally
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_RatAggregator.xml'
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:drat:RatLog] returned no results
+java.lang.NullPointerException
+	at org.apache.oodt.cas.filemgr.system.XmlRpcFileManager.complexQuery(XmlRpcFileManager.java:607)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.xmlrpc.Invoker.execute(Invoker.java:130)
+	at org.apache.xmlrpc.XmlRpcWorker.invokeHandler(XmlRpcWorker.java:84)
+	at org.apache.xmlrpc.XmlRpcWorker.execute(XmlRpcWorker.java:146)
+	at org.apache.xmlrpc.XmlRpcServer.execute(XmlRpcServer.java:139)
+	at org.apache.xmlrpc.XmlRpcServer.execute(XmlRpcServer.java:125)
+	at org.apache.xmlrpc.WebServer$Connection.run(WebServer.java:761)
+	at org.apache.xmlrpc.WebServer$Runner.run(WebServer.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+org.apache.xmlrpc.XmlRpcException: java.lang.Exception: org.apache.oodt.cas.filemgr.structs.exceptions.CatalogException: Failed to perform complex query : null
+	at org.apache.xmlrpc.XmlRpcClientResponseProcessor.decodeException(XmlRpcClientResponseProcessor.java:104)
+	at org.apache.xmlrpc.XmlRpcClientResponseProcessor.decodeResponse(XmlRpcClientResponseProcessor.java:71)
+	at org.apache.xmlrpc.XmlRpcClientWorker.execute(XmlRpcClientWorker.java:73)
+	at org.apache.xmlrpc.XmlRpcClient.execute(XmlRpcClient.java:194)
+	at org.apache.xmlrpc.XmlRpcClient.execute(XmlRpcClient.java:185)
+	at org.apache.xmlrpc.XmlRpcClient.execute(XmlRpcClient.java:178)
+	at org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient.complexQuery(XmlRpcFileManagerClient.java:1003)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.fillIn(XmlFilePgeConfigBuilder.java:322)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.fillIn(XmlFilePgeConfigBuilder.java:313)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.getCustomMetadata(XmlFilePgeConfigBuilder.java:180)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.build(XmlFilePgeConfigBuilder.java:109)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.buildImports(XmlFilePgeConfigBuilder.java:101)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.build(XmlFilePgeConfigBuilder.java:69)
+	at org.apache.oodt.cas.pge.PGETaskInstance.createPgeConfig(PGETaskInstance.java:133)
+	at org.apache.oodt.cas.pge.PGETaskInstance.initialize(PGETaskInstance.java:98)
+	at org.apache.oodt.cas.pge.PGETaskInstance.run(PGETaskInstance.java:449)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.executeTaskLocally(IterativeWorkflowProcessorThread.java:574)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.run(IterativeWorkflowProcessorThread.java:321)
+	at EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.Exception: Failed to parse value: SQL(FORMAT='$FileLocation/$Filename',SORT_BY='CAS.ProductReceivedTime'){SELECT FileLocation,Filename,CAS.ProductReceivedTime FROM RatLog}
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.fillIn(XmlFilePgeConfigBuilder.java:326)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.fillIn(XmlFilePgeConfigBuilder.java:313)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.getCustomMetadata(XmlFilePgeConfigBuilder.java:180)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.build(XmlFilePgeConfigBuilder.java:109)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.buildImports(XmlFilePgeConfigBuilder.java:101)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.build(XmlFilePgeConfigBuilder.java:69)
+	at org.apache.oodt.cas.pge.PGETaskInstance.createPgeConfig(PGETaskInstance.java:133)
+	at org.apache.oodt.cas.pge.PGETaskInstance.initialize(PGETaskInstance.java:98)
+	at org.apache.oodt.cas.pge.PGETaskInstance.run(PGETaskInstance.java:449)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.executeTaskLocally(IterativeWorkflowProcessorThread.java:574)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.run(IterativeWorkflowProcessorThread.java:321)
+	at EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.oodt.cas.filemgr.structs.exceptions.CatalogException: java.lang.Exception: org.apache.oodt.cas.filemgr.structs.exceptions.CatalogException: Failed to perform complex query : null
+	at org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient.complexQuery(XmlRpcFileManagerClient.java:1009)
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.fillIn(XmlFilePgeConfigBuilder.java:322)
+	... 12 more
+java.io.IOException: Failed to build PgeConfig : Failed to parse value: SQL(FORMAT='$FileLocation/$Filename',SORT_BY='CAS.ProductReceivedTime'){SELECT FileLocation,Filename,CAS.ProductReceivedTime FROM RatLog}
+	at org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder.build(XmlFilePgeConfigBuilder.java:75)
+	at org.apache.oodt.cas.pge.PGETaskInstance.createPgeConfig(PGETaskInstance.java:133)
+	at org.apache.oodt.cas.pge.PGETaskInstance.initialize(PGETaskInstance.java:98)
+	at org.apache.oodt.cas.pge.PGETaskInstance.run(PGETaskInstance.java:449)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.executeTaskLocally(IterativeWorkflowProcessorThread.java:574)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.run(IterativeWorkflowProcessorThread.java:321)
+	at EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+org.apache.oodt.cas.workflow.structs.exceptions.WorkflowTaskInstanceException: PGETask failed : Failed to instanciate PGETaskInstance : Failed to build PgeConfig : Failed to parse value: SQL(FORMAT='$FileLocation/$Filename',SORT_BY='CAS.ProductReceivedTime'){SELECT FileLocation,Filename,CAS.ProductReceivedTime FROM RatLog}
+	at org.apache.oodt.cas.pge.PGETaskInstance.run(PGETaskInstance.java:456)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.executeTaskLocally(IterativeWorkflowProcessorThread.java:574)
+	at org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread.run(IterativeWorkflowProcessorThread.java:321)
+	at EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InstantiationException: Failed to instanciate PGETaskInstance : Failed to build PgeConfig : Failed to parse value: SQL(FORMAT='$FileLocation/$Filename',SORT_BY='CAS.ProductReceivedTime'){SELECT FileLocation,Filename,CAS.ProductReceivedTime FROM RatLog}
+	at org.apache.oodt.cas.pge.PGETaskInstance.initialize(PGETaskInstance.java:116)
+	at org.apache.oodt.cas.pge.PGETaskInstance.run(PGETaskInstance.java:449)
+	... 4 more
+May 17, 2015 4:38:13 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+WARNING: Exception executing task: [RatAggregator] locally: Message: PGETask failed : Failed to instanciate PGETaskInstance : Failed to build PgeConfig : Failed to parse value: SQL(FORMAT='$FileLocation/$Filename',SORT_BY='CAS.ProductReceivedTime'){SELECT FileLocation,Filename,CAS.ProductReceivedTime FROM RatLog}
+Using CATALINA_BASE:   /Users/ohjihyun/drat/deploy/tomcat
+Using CATALINA_HOME:   /Users/ohjihyun/drat/deploy/tomcat
+Using CATALINA_TMPDIR: /Users/ohjihyun/drat/deploy/tomcat/temp
+Using JRE_HOME:       /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home
+Using CATALINA_BASE:   /Users/ohjihyun/drat/deploy/tomcat
+Using CATALINA_HOME:   /Users/ohjihyun/drat/deploy/tomcat
+Using CATALINA_TMPDIR: /Users/ohjihyun/drat/deploy/tomcat/temp
+Using JRE_HOME:       /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home
+Workflow Manager started PID file (/Users/ohjihyun/drat/deploy/workflow/run/cas.workflow.pid).
+Resource Manager started PID file (/Users/ohjihyun/drat/deploy/resmgr/run/cas.resmgr.pid).
+May 19, 2015 9:58:53 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Loading Resource Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/resmgr/etc/resource.properties]
+May 19, 2015 9:58:53 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager loadProperties
+INFO: Loading Workflow Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/workflow/etc/workflow.properties]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.workflow.engine.ThreadPoolWorkflowEngineFactory getResmgrUrl
+INFO: No Resource Manager URL provided or malformed URL: executing jobs locally. URL: [null]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager loadConfiguration
+INFO: Loading File Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/filemgr/etc/filemgr.properties]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.resource.system.XmlRpcResourceManager <init>
+INFO: Resource Manager started by ohjihyun
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.workflow.system.XmlRpcWorkflowManager <init>
+INFO: Workflow Manager started by ohjihyun
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [GenericFile]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [LocationAwareProduct]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [TraceableFile]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [RatLog]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.repository.XMLRepositoryManager loadProductTypes
+FINE: XMLRepositoryManager: found product type: [RatAggregateLog]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient <init>
+INFO: Loading File Manager Configuration Properties from: [/Users/ohjihyun/drat/deploy/filemgr/etc/filemgr.properties]
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer setFileManagerUrl
+INFO: Local Data Transfer to: [http://localhost:9000] enabled
+May 19, 2015 9:58:54 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager <init>
+INFO: File Manager started by ohjihyun
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/.DS_Store
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [.DS_Store] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [.DS_Store] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/center.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [center.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [center.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/CHANGES
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [CHANGES] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [CHANGES] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvfctn.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvfctn.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvfctn.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/gcvridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [gcvridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [index.html] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [index.html] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/iridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [iridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [iridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcv_ttls.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcv_ttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcv_ttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/kcvindices.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcvindices.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [kcvindices.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/missingness_patterns.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [missingness_patterns.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [missingness_patterns.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/mridge.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [mridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [mridge.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nancov.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nancov.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nancov.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanmean.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanmean.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanmean.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nanstd.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanstd.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nanstd.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/nansum.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nansum.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [nansum.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pca_truncation_criteria.m
+May 19, 2015 9:59:07 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pca_truncation_criteria.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pca_truncation_criteria.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/peigs.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [peigs.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [peigs.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/pttls.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [pttls.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/regem.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [regem.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [regem.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/rescale.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rescale.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rescale.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [GenericFile]
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.versioning.InPlaceVersioner createDataStoreReferences
+INFO: in-place ingestion at datastore path: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m.which is the same as the product's origin: file:/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/standardize.m
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [standardize.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:08 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [standardize.m] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:11 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:drat:RatLog] returned no results
+May 19, 2015 9:59:11 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 19, 2015 9:59:11 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:oodt:TraceableFile] returned no results
+May 19, 2015 9:59:11 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 19, 2015 9:59:11 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:drat:RatAggregateLog] returned no results
+May 19, 2015 9:59:11 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 19, 2015 9:59:12 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog paginateQuery
+WARNING: Query: [q=] for Product Type: [urn:oodt:LocationAwareProduct] returned no results
+May 19, 2015 9:59:12 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager getFirstPage
+WARNING: Unable to set product types for product page list: [null]
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [MimePartitioner] has no required metadata fields
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [MimePartitioner] locally
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_MimePartitioner.xml'
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548]
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 19, 2015 9:59:16 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 19, 2015 9:59:16 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running MIME partitioner
+
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/logs, echo "Running MIME partitioner", /Users/ohjihyun/drat/deploy/pge/bin/mime_partitioner/mime_rat_partitioner.py -u http://localhost:8080/solr/drat -c 100 -w http://localhost:9001 -t urn:drat:RatCodeAudit > /Users/ohjihyun/drat/deploy/data/jobs/mimepartitioner/1432097956548/logs/mime-partitioner-1432097956548.log]'
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: All required metadata fields present for task: [RadCodeAudit]
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [RadCodeAudit] locally
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_Rat.xml'
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902]
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 19, 2015 9:59:16 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, alias rat="java -jar /Users/ohjihyun/drat/deploy/rat/lib/apache-rat-0.11.jar", echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/logs, echo "Staging input to /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input", FILELIST=`python -c "print ' '.join('/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html,/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html'.split(','))"`, for file in $FILELIST; do, rsync -av --backup --suffix=_`date +"%m%d%Y_%H%M"` $file /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input, done, echo "Running Apache RAT on /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input", rat /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input > /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]'
+May 19, 2015 9:59:17 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Staging input to /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input
+OUTPUT: building file list ... done
+OUTPUT: index.html
+OUTPUT: 
+OUTPUT: sent 8964 bytes  received 42 bytes  6004.00 bytes/sec
+OUTPUT: total size is 8834  speedup is 0.98
+OUTPUT: building file list ... done
+OUTPUT: 
+OUTPUT: sent 84 bytes  received 20 bytes  208.00 bytes/sec
+OUTPUT: total size is 8834  speedup is 84.94
+OUTPUT: Running Apache RAT on /Users/ohjihyun/drat/deploy/data/jobs/rat/1432
+May 19, 2015 9:59:17 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: 097956902/input
+
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance runIngestCrawler
+INFO: Executing StdProductCrawler in productPath: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler crawl
+INFO: Crawling /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.metadata.extractors.MetReaderExtractor extrMetadata
+INFO: Reading metadata from /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]: ProductType: [RatLog]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.ingest.StdIngester setFileManager
+INFO: StdIngester: connected to file manager: [http://localhost:9000]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer setFileManagerUrl
+INFO: Local Data Transfer to: [http://localhost:9000] enabled
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [rat_html_1432097956902.log]: ProductType: [RatLog]: FileLocation: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [RatLog]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [RatLog]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [RatLog]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner createDataStoreReferences
+INFO: Generated data store ref: [file:/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log] from origRef: [file:/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [rat_html_1432097956902.log]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner createDataStoreReferences
+INFO: Generated data store ref: [file:/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log] from origRef: [file:/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [OutputFiles]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ExecutablePathnames]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ExecutableVersions]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ApplicationSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [TaskSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [JobSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [PGEVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ExecutionTime]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [CmdLineParameters]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer moveFile
+INFO: LocalDataTransfer: Moving File: file:/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log to file:/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [OutputFiles]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ExecutablePathnames]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ExecutableVersions]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ApplicationSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [TaskSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [JobSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [PGEVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [ExecutionTime]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_html_1432097956902.log] for required field [CmdLineParameters]: Attempting to continue processing metadata
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]: product id: f803677f-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+WARNING: Failed to pass preconditions for ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met]
+May 19, 2015 9:59:17 PM org.apache.oodt.cas.pge.PGETaskInstance verifyIngests
+WARNING: Product was not ingested [file='/Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log.met',result='PRECONDS_FAILED',msg='Failed to pass preconditions']
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread checkTaskRequiredMetadata
+INFO: Task: [RatAggregator] has no required metadata fields
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.workflow.engine.IterativeWorkflowProcessorThread executeTaskLocally
+INFO: Executing task: [RatAggregator] locally
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.config.XmlFilePgeConfigBuilder buildImports
+INFO: Loading PgeConfig file '/Users/ohjihyun/drat/deploy/pge/policy/PgeConfig_RatAggregator.xml'
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager complexQuery
+INFO: Query returned 1 results
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance createExeDir
+INFO: Creating PGE execution working directory: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as BUILDING CONFIG FILE
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as PGE EXEC
+May 19, 2015 9:59:22 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running RAT aggregator
+
+May 19, 2015 9:59:22 PM org.apache.oodt.commons.io.LoggerOutputStream flush
+INFO: OUTPUT: Creating working dirs
+OUTPUT: Running RAT aggregator
+
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance runPge
+INFO: Successfully completed running: '[export PATH=$HOME/bin/:${PATH}, shopt -s expand_aliases, echo "Creating working dirs", mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/logs, echo "Running RAT aggregator", /Users/ohjihyun/drat/deploy/pge/bin/rat_aggregator/rat_aggregator.py `python -c "print ' '.join('/Users/ohjihyun/drat/deploy/data/archive/rat/html/rat_html_1432097956902.log'.split(','))"` > /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]'
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance setCrawlerConfigurations
+INFO: Passing Workflow Metadata to CAS-Crawler as global metadata . . .
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance updateStatus
+INFO: Updating status to workflow as CRAWLING
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance runIngestCrawler
+INFO: Executing StdProductCrawler in productPath: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler crawl
+INFO: Crawling /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.metadata.extractors.MetReaderExtractor extrMetadata
+INFO: Reading metadata from /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: ProductCrawler: Ready to ingest product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]: ProductType: [RatAggregateLog]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.ingest.StdIngester setFileManager
+INFO: StdIngester: connected to file manager: [http://localhost:9000]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer setFileManagerUrl
+INFO: Local Data Transfer to: [http://localhost:9000] enabled
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.ingest.StdIngester ingest
+INFO: StdIngester: ingesting product: ProductName: [rat_aggregate_stats_1432097962139.csv]: ProductType: [RatAggregateLog]: FileLocation: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.CoreMetExtractor] for product type: [RatAggregateLog]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.MimeTypeExtractor] for product type: [RatAggregateLog]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManager runExtractors
+INFO: Running Met Extractor: [org.apache.oodt.cas.filemgr.metadata.extractors.examples.FinalFileLocationExtractor] for product type: [RatAggregateLog]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner createDataStoreReferences
+INFO: Generated data store ref: [file:/Users/ohjihyun/drat/deploy/data/archive/rataggregate/rat_aggregate_stats_1432097962139.csv] from origRef: [file:/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.system.XmlRpcFileManagerClient ingestProduct
+FINEST: File Manager Client: clientTransfer enabled: transfering product [rat_aggregate_stats_1432097962139.csv]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.versioning.MetadataBasedFileVersioner createDataStoreReferences
+INFO: Generated data store ref: [file:/Users/ohjihyun/drat/deploy/data/archive/rataggregate/rat_aggregate_stats_1432097962139.csv] from origRef: [file:/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [OutputFiles]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ExecutablePathnames]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ExecutableVersions]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ApplicationSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [TaskSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [JobSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [PGEVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ExecutionTime]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [CmdLineParameters]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.datatransfer.LocalDataTransferer moveFile
+INFO: LocalDataTransfer: Moving File: file:/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv to file:/Users/ohjihyun/drat/deploy/data/archive/rataggregate/rat_aggregate_stats_1432097962139.csv
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [OutputFiles]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ExecutablePathnames]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ExecutableVersions]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ApplicationSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [TaskSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [JobSuccessFlag]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [PGEVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [ExecutionTime]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [CmdLineParameters]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.filemgr.catalog.LuceneCatalog toDoc
+WARNING: No Metadata specified for product [rat_aggregate_stats_1432097962139.csv] for required field [DataVersion]: Attempting to continue processing metadata
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler ingest
+INFO: Successfully ingested product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]: product id: fac4d170-feac-11e4-aba6-c73c97da2a25
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Successful ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+INFO: Handling file /Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.crawl.ProductCrawler handleFile
+WARNING: Failed to pass preconditions for ingest of product: [/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met]
+May 19, 2015 9:59:22 PM org.apache.oodt.cas.pge.PGETaskInstance verifyIngests
+WARNING: Product was not ingested [file='/Users/ohjihyun/drat/deploy/data/jobs/rataggregate/1432097962139/output/rat_aggregate_stats_1432097962139.csv.met',result='PRECONDS_FAILED',msg='Failed to pass preconditions']

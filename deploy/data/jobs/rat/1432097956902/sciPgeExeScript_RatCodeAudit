@@ -1,0 +1,14 @@
+#!sh
+export PATH=$HOME/bin/:${PATH}
+shopt -s expand_aliases
+alias rat="java -jar /Users/ohjihyun/drat/deploy/rat/lib/apache-rat-0.11.jar"
+echo "Creating working dirs"
+mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input ; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output; mkdir /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/logs
+echo "Staging input to /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input"
+FILELIST=`python -c "print ' '.join('/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html,/Users/ohjihyun/Desktop/GeoSoft/Paleo_code/RegEM/imputation/index.html'.split(','))"`
+for file in $FILELIST; do
+rsync -av --backup --suffix=_`date +"%m%d%Y_%H%M"` $file /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input
+done
+echo "Running Apache RAT on /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input"
+rat /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/input > /Users/ohjihyun/drat/deploy/data/jobs/rat/1432097956902/output/rat_html_1432097956902.log
+
